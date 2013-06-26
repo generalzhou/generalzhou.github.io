@@ -1,0 +1,334 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>resume</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+/* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
+/* Author: Nicolas Hery - http://nicolashery.com */
+/* Version: 29d1c5bc36da364ad5aa86946d420b7bbc54a253 */
+/* Source: https://github.com/nicolahery/markdownpad-github */
+
+/* RESET
+=============================================================================*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* BODY
+=============================================================================*/
+
+body {
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body>*:first-child {
+  margin-top: 0 !important;
+}
+
+body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* BLOCKS
+=============================================================================*/
+
+p, blockquote, ul, ol, dl, table, pre {
+  margin: 15px 0;
+}
+
+/* HEADERS
+=============================================================================*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 28px;
+  color: #000;
+}
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  color: #777;
+  font-size: 14px;
+}
+
+body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+  margin-top: 10px;
+}
+
+/* LINKS
+=============================================================================*/
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LISTS
+=============================================================================*/
+
+ul, ol {
+  padding-left: 30px;
+}
+
+ul li > :first-child, 
+ol li > :first-child, 
+ul li ul:first-of-type, 
+ol li ol:first-of-type, 
+ul li ol:first-of-type, 
+ol li ul:first-of-type {
+  margin-top: 0px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+
+dl dt:first-child {
+  padding: 0;
+}
+
+dl dt>:first-child {
+  margin-top: 0px;
+}
+
+dl dt>:last-child {
+  margin-bottom: 0px;
+}
+
+dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+
+dl dd>:first-child {
+  margin-top: 0px;
+}
+
+dl dd>:last-child {
+  margin-bottom: 0px;
+}
+
+/* CODE
+=============================================================================*/
+
+pre, code, tt {
+  font-size: 12px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+code, tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+/* QUOTES
+=============================================================================*/
+
+blockquote {
+  border-left: 4px solid #DDD;
+  padding: 0 15px;
+  color: #777;
+}
+
+blockquote>:first-child {
+  margin-top: 0px;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0px;
+}
+
+/* HORIZONTAL RULES
+=============================================================================*/
+
+hr {
+  clear: both;
+  margin: 15px 0;
+  height: 0px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  border-bottom: 4px solid #ddd;
+  padding: 0;
+}
+
+/* TABLES
+=============================================================================*/
+
+table th {
+  font-weight: bold;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 6px 13px;
+}
+
+table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+/* IMAGES
+=============================================================================*/
+
+img {
+  max-width: 100%
+}
+</style>
+<base href='file:\\\D:\Dropbox\github_page\'/>
+</head>
+<body>
+<h1>Jack Zhou</h1>
+<h3>Beginner Software Engineer</h3>
+<p><a href="http://jackzhou.net">jackzhou.net</a><br />
+<a href="&#x6d;&#97;&#x69;&#x6c;t&#111;&#x3a;&#106;&#97;ck&#122;&#x68;&#x6f;&#117;&#57;&#x39;&#x39;&#64;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#x6a;a&#x63;&#107;&#122;&#104;&#x6f;&#117;&#57;&#57;&#x39;&#64;&#103;&#109;&#x61;&#x69;&#x6c;&#46;&#x63;&#x6f;&#109;</a><br />
+(847) 372 - 1652</p>
+<hr />
+<h2>Summary</h2>
+<p>I am a beginner web developer and recent graduate from Dev Bootcamp.  I'm looking for a position that will allow me to contribute well written code, and challenge me at the same time. I know Ruby, Rails, JavaScript/jQuery, HTML5, and CSS.</p>
+<h2>Education</h2>
+<h3>Dev Bootcamp</h3>
+<p><strong>Class of 2013</strong></p>
+<p>Dev Bootcamp is a 9 week program where I spent 12 hours a day learning to become a web developer. In addition to learning the technologies listed above, I:</p>
+<ul>
+<li>Pair programmed for 8+ hours a day</li>
+<li>Worked on 8 different group projects including a final project that spanned 1.5 weeks</li>
+<li>Performed and received code reviews</li>
+</ul>
+<p>Here are some projects I worked on at Dev Bootcamp that I am particularly proud of: </p>
+<ul>
+<li>
+<p><strong>Movie recommender:</strong> This app uses a Pearson correlation algorithm to predict movies you might like.  I used movie data from <a href="www.grouplens.org">GroupLens Research</a>  
+</p>
+<p>Source code here: <a href="https://github.com/generalzhou/movie_recommender">https://github.com/generalzhou/movie_recommender</a></p>
+</li>
+<li>
+<p><strong>StrobeHub:</strong> I worked on a four person team to build a Github for music. I chose to work on this because I was excited about the challenge of building a music editor in JavaScript, a language I had little exposure to. I coded most of the music editor front end, learning object oriented JavaScript and HTML5 Web Audio along the way.</p>
+<p>Check it out here: <a href="http://strobehub.herokuapp.com">http://strobehub.herokuapp.com</a><br />
+Source code here: <a href="https://github.com/ezy023/strobehub">https://github.com/ezy023/strobehub</a></p>
+</li>
+</ul>
+<h3>Washington University in Saint Louis</h3>
+<p><strong>Class of 2010</strong></p>
+<p>Bachelor of Science in Biomedical Engineering<br />
+Graduated Cum Laude; Cumulative GPA: 3.75/4.00</p>
+<h2>Experience</h2>
+<h3>Facebook</h3>
+<p><strong>Payments Operations Analyst</strong> <br />
+<em>December 2013 to April 2013</em><br />
+- Worked on a small team to handle customer requests and fight fraud.<br />
+- Wrote a script in Ruby to automate the fighting of chargebacks, a manual process that used to take our team 6+ hours per week. The script allowed us to handle a 10x increase in volume and generated $900,000 in revenue in the first week.  
+</p>
+<h4>HighTable.com</h4>
+<p><strong>Knowledge Curator</strong> <br />
+<em>April 2012 to June 2012</em><br />
+- Acted as a point of communication between our business teams and our machine learning consultant.<br />
+- Taught myself Ruby, and wrote website scraping scripts to create training data for our machine learning algorithm.</p>
+<h4>Gerson Lehrman Group</h4>
+<p><strong>Senior Research Associate - Tech, Media, and Telecom</strong><br />
+<em>September 2010 to April 2012</em> <br />
+- Managed clients' primary research needs by connecting them with consultants in the technology, media, and telecom verticals. </p>
+<h4>Baxter International</h4>
+<p><strong>Engineering Intern</strong><br />
+<em>May 2009 to August 2009</em>, and <em>May 2008 to August 2008</em><br />
+- Designed a novel device for drug infusion that reduces the processes' complexity, increases its efficiency, and improves the ergonomics for patients who use Baxter's products.</p>
+
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->
