@@ -14,14 +14,16 @@ h2 { font-size: 30px; }
 
 h3 { font-size: 24px; }
 
-a {
-  text-decoration: none;
-  color:white;
+a { 
+  text-decoration: none; 
+  color: #4183C4;
 }
 
-a:hover {
-  color:#749619;
-}
+a:hover { text-decoration: underline; }
+
+nav a:hover { text-decoration: none; }
+
+nav a { color:white; }
 
 a.mail:hover { color: #D34332; }
 
@@ -31,20 +33,41 @@ a.linkedin:hover { color:#1683BB; }
 
 a.twitter:hover { color:#499ADB; }
 
-a:visited { color:white; }
+a.resume:hover { color:#1de068; }
+
+nav a:visited { color:white; }
+
+p, li { 
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+li {
+  list-style: none;
+}
 
 #title{
-  margin-left: 38px;
+  margin-top:10px;
+  margin-left: 20px;
 }
 
 nav {
   position: fixed;
   left: 0;
   top:0;
+  padding-top:10px;
   height: 100%;
   width: 240px;
   background-image:url('../images/nav-bg.gif'); 
   color:white;
+}
+
+.gravatar {
+  border-radius: 10px;
+}
+
+nav ul {
+  margin-left: -18px;
 }
 
 nav li {
@@ -58,5 +81,6 @@ nav a {
 
 .wrapper {
   float:left;
-  margin-left:300px;
-}
+  margin-left:266px;
+  margin-top:8px;
+} 
