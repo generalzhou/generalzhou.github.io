@@ -1,124 +1,175 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Jack Zhou by generalzhou</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
+    <title>Jack Zhou</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
   </head>
   <body>
-    <nav>
-      <div id="title">
-        <img class='gravatar' src="http://www.gravatar.com/avatar/a7c346fa51a9c652f5920eda6c0608fc?s=200"></img>
-        <br>
-        <br>
-        <h1>Jack Zhou</h1>
-        <h3>Software Engineer</h3>
-      </div>
-      <br>
-      <br>
-
-      <ul>
-        <li>
-          <a class='mail' href="mailto:jackzhou999@gmail.com"><i class='icon-envelope'></i> Email</a>
-        </li>
-        <li>
-          <a class='github' href="https://github.com/generalzhou"><i class='icon-github'></i> GitHub</a>
-        </li>
-        <li>
-          <a class='linkedin' href="http://www.linkedin.com/in/jackzhou999"><i class='icon-linkedin'></i> LinkedIn</a>
-        </li>
-        <li>
-          <a class='resume' href="resume.html"><i class='icon-file-text-alt'></i> Resume</a>
-        </li>
-      </ul>
-    </nav>
-
-    <div class="wrapper">
-
-      <section>
-       
-<h2>About Me</h2>
-
-
-<p>
-  Hi. I am a software engineer and recent graduate of Dev Bootcamp. I grew up in the Chicago area, and recently moved back here after going to school in St. Louis and living in Austin. I like mountain biking, cooking, and going to the beach.
-</p>
-<h2>
-	Projects:
-</h2>
-<p>
-	Here are some things I built during my 12 weeks at Dev Bootcamp:
-</p>
-
-
-<a href="http://strobehub.herokuapp.com">
-	<img src="strobehub.png" />
-	<h3>Strobehub</h3>
-</a>
-<p>
-	Github for music, with an interactive multitrack audio editor.
-	<br>
-	<a href="https://github.com/eyz023/strobehub">
-		:source:
-	</a>
-</p>
-<br>
-<br>
-
-	
-<a href="http://pearson-movies.herokuapp.com">
-	<img src="pearson_movies.png" />
-	<h3>Movie Recommender</h3>
-</a>
-<p>
-	Recommends movies you might like using and algorithm based on Pearson correlation and data from <a href="http://grouplens.org">GroupLens Research</a>.
-	<br>
-	<a href="https://github.com/generalzhou/movie_recommender">
-		:source:
-	</a>
-</p>
-<br>
-<br>
-
-<a href="http://brahoo-answers.herokuapp.com">
-	<img src="brahoo_answers.png" />
-	<h3>Brahoo Answers</h3>
-</a>
-<p>
-	Stack Overflow clone
-	<br>
-	<a href="https://github.com/generalzhou/brahoo_answers">
-		:source:
-	</a>
-</p>
-<!--
-<h2>Path to Dev Bootcamp</h2>
-
-<p>I studied biomedical engineering at Washington University in St. Louis. I interned at Baxter and did some really cool things, including designing a novel infusion device for hemophilia patients. However, I realized that the pace of medical device engineering is on the scale of decades, which was way too slow for me.</p>
-
-<p>After working for a few years in professional services, I realized I really missed engineering and puzzle solving.  I applied to Dev Bootcamp in 2012, and recently graduated this June.</p>
-      
-<h2>Jack Zhou</h2>
-  
-<p>Jack Zhou was not my first name. I was born in Shanghai, and my birth name is Zhou Chun. I moved to the US when I was 2, and my parents decided to give me an American name. My dad really liked basketball, and he loved Magic Johnson. So they thought that my name should be Johnson. Even in my young age, I knew that having a last name as my first name was weird.</p>
-<p>The next year I started kindergarten, and on the first day we had to introduce ourselves. Over the last year, I watched a lot of movies where someone named Jack was always doing something badass (and Jack Nicholson was big back then too). I thought this was a pretty cool name, so I told my teacher and the class that I wanted to be called Jack. The teacher was shocked that someone would just decided to change their name in class, but I persisted, and after they called my parents, I started going by the name Jack Zhou.</p>
-<p>If you've read this far: my picture is photoshopped.</p>
--->
-      </section>
-
+    <div class='splash'>
+      <img id='chicago' class='splash-image' src="images/chicago_panorama.jpg">
+      <img id='st-louis' class='splash-image' src="images/st_louis_panorama.jpg">
+      <img id='austin' class='splash-image' src="images/austin_panorama.jpg">
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
+    <div class='container'>
+      <div class='span12'>
+        <br>
+        <div class='row'>
+          <div class='span8'>
+            <h2>
+              <span class='splash-text'>
+                &nbsp;Hello! My name is&nbsp;
+              </span>
+            </h2>
+            <h1>
+              <span class='splash-text' >
+                &nbsp;Jack Zhou&nbsp;
+              </span>
+            </h1>
+            <p class='lead'>
+              <span class='splash-text'>
+                &nbsp;&nbsp;I am a Full Stack Software Engineer&nbsp;
+              </span>
+            </p>
+          </div>
+          <div class='span4 splash-links'>
+            <h4>
+              / <a href="#projects">projects</a>
+              / <a href="#about">about</a>
+              / <a id='contact_link' href="#">contact</a>
+            </h4>
+            <h4 id='contact'>
+              <a class='mail' href="mailto:jackzhou999@gmail.com">jackzhou999@gmail.com</a>
+              <br>
+              <a href="#">847-372-1652</a>
+            </h4>
+          </div>
+        </div>
+
+        <br><br>
+        
+        <div id='projects'>
+          <h2>
+            Projects
+          </h2>
+
+          <div class='row'>
+            <div class='span5'>
+              <a href="http://strobehub.herokuapp.com">
+                <p class='lead'>Strobehub</p>
+                <img src="images/strobehub.png" class="img-polaroid">
+              </a>
+              <p>
+                <br>
+                <strong>Description:</strong> Github for music<br>
+                <strong>Tech:</strong> JavaScript, HTML5 Web Audio, Ruby/Rails<br>
+                <strong>Challenges:</strong> Building interactive track editor, integrating with relatively new web audio API<br>
+                <a href="https://github.com/ezy023/strobehub">
+                  <strong>Source</strong>
+                </a>
+              </p>
+            </div>
+            <div class='span5 offset1'>
+              <a href="http://pearson-movies.herokuapp.com">
+                <p class='lead'>Movie Recommender</p>
+                <img src="images/pearson_movies.png" class="img-polaroid">
+              </a>
+              <p>
+                <br>
+                <strong>Description:</strong> Movie recommender app<br>
+                <strong>Tech:</strong> Pearson correlation algorithm, Ruby/Sinatra<br>
+                <strong>Data:</strong> <a href="http://grouplens.org">GroupLens Research</a><br>
+                <strong>Challenges:</strong> Optimizing performance when algorithm makes 1000+ data calls<br>
+                <a href="https://github.com/generalzhou/movie_recommender">
+                  <strong>Source</strong>
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <br><br>
+
+          <div class='row'>
+            <div class='span5'>
+              <a href="http://brahoo-answers.herokuapp.com">
+                <p class='lead'>Brahoo Answers</p>
+                <img src="images/brahoo_answers.png" class="img-polaroid">
+              </a>
+              <p>
+                <br>
+                <strong>Description:</strong> Stack Overflow clone<br>
+                <strong>Tech:</strong> Ruby/Rails<br>
+                <strong>Challenges:</strong> Performing meticulous code reviews, proper test coverage<br>
+                <a href="https://github.com/generalzhou/brahoo_answers">
+                  <strong>Source</strong>
+                </a>
+              </p>
+            </div>
+            <div class='span5 offset1'>
+              <a href="https://github.com/generalzhou/shopping_cart">
+                <p class='lead'>Shopping Cart in Python/Django</p>
+                <img src="images/shopping_cart.png" class="img-polaroid">
+              </a>
+              <p>
+                <br>
+                <strong>Description:</strong> Simple shopping cart app<br>
+                <strong>Tech:</strong> Python/Django<br>
+                <strong>Challenges:</strong> Building this in 3 days with no prior knowledge of Python or Django<br>
+                <a href="https://github.com/generalzhou/shopping_cart">
+                  <strong>Source</strong>
+                </a>
+              </p>
+            </div>
+          </div>
+
+        </div> <!-- projects closure -->
+
+        <br><br>
+          
+        <div class='divider'></div>
+        
+        <br>
+
+        <div id='about'>
+
+          <h2>About Me</h2>
+          <div class='row'>
+            <div class='span2'>
+              <img class='img-rounded' src="http://www.gravatar.com/avatar/a7c346fa51a9c652f5920eda6c0608fc?s=165"></img>
+            </div>
+            <div class='span10' >
+              <p>
+                I am a Chicago native who has also lived in St. Louis, MO and Austin, TX. I learned to program and built all the projects you see here during my 12 weeks at Dev Bootcamp in Chicago.
+              </p>
+              <p>
+                I like mountain biking, cooking, and anything that involves adrenaline.
+              </p>
+              <p>
+                Also my name was originally Johnson but I didn't like it so I changed my name to Jack in kindergarten.
+              </p>
+              <h2>
+                <a class='github' href="https://github.com/generalzhou"><i class='icon-github'></i> GitHub</a> / 
+                <a class='linkedin' href="http://www.linkedin.com/in/jackzhou999"><i class='icon-linkedin'></i> LinkedIn</a> / 
+                <a class='tumblr' href="http://generalzhou.tumblr.com"><i class='icon-tumblr'></i> Tumblr</a> / 
+                <a class='resume' href="resume.html"><i class='icon-file-text-alt'></i> Resume</a>
+              </h2>
+            </div>
+          </div>
+          
+        </div>
+      </div> <!-- span 12 closure -->
+    </div> <!-- .container closure -->
+
+      <div class='footer'>
+        <br>
+        <p>
+          This page is hosted by <a href="https://github.com/generalzhou/generalzhou.github.io">Github.io</a> and uses <a href="http://twitter.github.io/bootstrap">Twitter Bootstrap</a>
+        </p> 
+        <p>If you've read this far: my picture is photoshopped</p>
+      </div>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="javascripts/jackzhou.js"></script>
   </body>
 </html>
