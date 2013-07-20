@@ -1,0 +1,62 @@
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+a { 
+  text-decoration: none; 
+  color: #4183C4;
+}
+
+a:hover { text-decoration: underline; }
+
+nav a:hover { text-decoration: none; }
+
+nav a { color:white; }
+
+a.mail:hover { color: #D34332; }
+
+a.github:hover { color:#8100cc; }
+
+a.linkedin:hover { color:#1683BB; }
+
+a.twitter:hover { color:#499ADB; }
+
+a.resume:hover { color:#1de068; }
+
+a.tumblr:hover { color:#F19F35; }
+
+nav a:visited { color:white; }
+
+.footer {
+	width:100%;
+	height:100px;
+	background-color:#d8d8d8;
+	margin-top: 50px;
+	text-align: center;
+}
+
+h1,h2,h3, h4 {
+	font-weight: normal;
+}
+
+.splash {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:-100;
+  height:220px;
+  overflow:hidden;
+}
+.splash-text{
+	background-color:#22337f;
+	color:white;
+}
+
+.splash-links, .splash-links a{
+	color: white;
+}
+.divider{
+	border-top: 1px solid #c9c9c9;
+}
