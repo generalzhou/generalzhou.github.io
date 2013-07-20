@@ -49,13 +49,19 @@ h1,h2,h3, h4 {
   height:220px;
   overflow:hidden;
 }
+
+.splash img{
+	min-height: 220px;
+	min-width:1680px;
+}
+
 .splash-text{
 	background-color:#22337f;
 	color:white;
 }
 
-.splash-links, .splash-links a{
-	color: white;
+.header {
+	background-image:url('images/chicago_panorama.jpg');
 }
 .divider{
 	border-top: 1px solid #c9c9c9;

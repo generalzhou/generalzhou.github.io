@@ -5,7 +5,7 @@ $(document).ready(function(){
 	$('#austin').hide();
 	$('#chicago').hide();
 
-	var headers=[$('#st-louis'), $('#austin'),$('#chicago')];
+	var headers=[$('#austin'),$('#chicago')];
 	headers[Math.floor(Math.random()*headers.length)].show();
 
 	$('#contact_link').click(function(){
