@@ -2,7 +2,7 @@
 ###Software Engineer  
 [jackzhou.net](http://jackzhou.net)  
 [jackzhou999@gmail.com](mailto:jackzhou999@gmail.com)  
-(847) 372 - 1652
+(847) 372 - 1652  
 _____
 
 ##Summary
@@ -33,7 +33,7 @@ Here are some projects I worked on at Dev Bootcamp that I am particularly proud 
 	Check it out here: <http://brahoo-answers.herokuapp.com>  
 	Source code here: <https://github.com/generalzhou/brahoo_answers>
 	
-* __Shopping car:__ Simple ecommerce app I used to learn Python and Django  
+* __Shopping cart:__ Simple ecommerce app I used to learn Python and Django  
 	Source code here: <https://github.com/generalzhou/shopping_cart>
   
 ###Washington University in Saint Louis
@@ -62,7 +62,7 @@ __Senior Research Associate - Tech, Media, and Telecom__
 *September 2010 to April 2012*   
 - Managed clients' research needs by connecting them with consultants in the technology industry. 
 
-####Baxter International
+###Baxter International
 __Engineering Intern__  
 *May 2009 to August 2009*, and *May 2008 to August 2008*  
 - Designed a novel device for drug infusion that reduces the processes' complexity, increases its efficiency, and improves the ergonomics for patients who use Baxter's products.
