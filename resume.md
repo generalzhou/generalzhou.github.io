@@ -1,8 +1,9 @@
 #Jack Zhou  
 ###Software Engineer  
-[jackzhou.net](http://jackzhou.net)  
+[jackzhou.io](http://jackzhou.io)  
 [jackzhou999@gmail.com](mailto:jackzhou999@gmail.com)  
 (847) 372 - 1652  
+[download](resume.pdf)  
 _____
 
 ##Summary
