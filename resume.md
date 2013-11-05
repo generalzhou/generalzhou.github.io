@@ -1,49 +1,33 @@
 #Jack Zhou  
-###Software Engineer  
+###Full Stack Web Developer
 [jackzhou.io](http://jackzhou.io)  
 [jackzhou999@gmail.com](mailto:jackzhou999@gmail.com)  
 (847) 372 - 1652  
 [download](resume.pdf)  
 _____
 
-##Summary
-I am a full stack engineer who has built apps using __Ruby/Rails__, __Python/Django__, and __Javascript__. I'm a recent graduate from Dev Bootcamp am looking for a position that will allow me to contribute well written code and challenge me to keep learning.
+##Skills:
+###Languages
+__Experienced with:__ Ruby, Javascript  
+__Familiar with (and would love to learn more):__ Python, Java
 
-##Education
+###Frameworks:
+__Experienced with:__ Rails, Sinatra  
+__Familiar with:__ Django, Backbone
 
-###Dev Bootcamp
-__Class of 2013__
-
-Dev Bootcamp is a 9 week program where I spent 12 hours a day learning to become a web developer. In addition to learning the technologies listed above, I:
-
-* Pair programmed for 8+ hours a day and worked on 8 different group projects
-* Collaborated using git and Github
-* Performed and received code reviews
-
-Here are some projects I worked on at Dev Bootcamp that I am particularly proud of: 
-
-* __StrobeHub:__ Github for music. I built most of the music editor in JavaScript.  
-	Check it out here: <http://strobehub.herokuapp.com>  
-	Source code here: <https://github.com/ezy023/strobehub>
-	
-* __Movie recommender:__ Recommends movies you might like using an algorithm based on Pearson correlation and data from [GroupLens Research](www.grouplens.org)  
-	Check it out here: <http://pearson-movies.herokuapp.com>  
-	Source code here: <https://github.com/generalzhou/movie_recommender>
-	
-* __Brahoo answers:__ Stack Overflow clone.  
-	Check it out here: <http://brahoo-answers.herokuapp.com>  
-	Source code here: <https://github.com/generalzhou/brahoo_answers>
-	
-* __Shopping cart:__ Simple ecommerce app I used to learn Python and Django  
-	Source code here: <https://github.com/generalzhou/shopping_cart>
-  
-###Washington University in Saint Louis
-__Class of 2010__
-
-Bachelor of Science in Biomedical Engineering  
-Graduated Cum Laude; Cumulative GPA: 3.75/4.00
+###Testing Suites:
+__Experienced with:__ RSpec, Cucumber, Jasmine  
+__Familiar with:__ Capybara, unittest
 
 ##Experience
+
+###Groupon
+__Software Engineer - Application Operations__  
+*August 2013 to present*  
+- Worked on five varying Rails 2 and 3 applications, in a service oriented architectural environment.  
+- Wrote both frontend Javascript and backend Rails, with full unit and integration test coverage.  
+- Optimized queries to improve load times from 30 seconds to 200ms on an internal app.  
+- Set up an application to send emails using an internal Groupon server.  
 
 ###Facebook
 __Payments Operations Analyst__   
@@ -67,3 +51,17 @@ __Senior Research Associate - Tech, Media, and Telecom__
 __Engineering Intern__  
 *May 2009 to August 2009*, and *May 2008 to August 2008*  
 - Designed a novel device for drug infusion that reduces the processes' complexity, increases its efficiency, and improves the ergonomics for patients who use Baxter's products.
+
+##Education
+
+###Dev Bootcamp
+__Class of 2013__
+
+Dev Bootcamp is a 9 week program where I spent 12 hours a day learning to become a web developer. We learned by pair programming or working in small groups every day.  
+[Portfolio here](http://jackzhou.io/)
+
+###Washington University in Saint Louis
+__Class of 2010__
+
+Bachelor of Science in Biomedical Engineering  
+Graduated Cum Laude; Cumulative GPA: 3.75/4.00
