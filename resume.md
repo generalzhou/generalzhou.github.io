@@ -1,64 +1,67 @@
-#Jack Zhou  
-###Full Stack Web Developer
-[jackzhou.io](http://jackzhou.io)  
+#Jack Zhou
+###Senior Software Engineer  
 [jackzhou999@gmail.com](mailto:jackzhou999@gmail.com)  
 (847) 372 - 1652  
-[download](resume.pdf)  
 _____
 
 ##Skills:
-###Languages
-__Experienced with:__ Ruby, Javascript  
-__Familiar with (and would love to learn more):__ Python, Java
+__Languages:__ Ruby (Rails, Sinatra, Grape, Sequel, Hutch, etc), Clojure, Javascript  
+__Technologies:__ Docker, Chef, AWS, RabbitMQ
 
-###Frameworks:
-__Experienced with:__ Rails, Sinatra  
-__Familiar with:__ Django, Backbone
-
-###Testing Suites:
-__Experienced with:__ RSpec, Cucumber, Jasmine  
-__Familiar with:__ Capybara, unittest
 
 ##Experience
 
-###Groupon
+###Funding Circle US
+
+__Senior Engineer, Technical Lead__  
+*July 2015 - Present*  
+Led the borrower applications team consisting of 3-4 full-stack and front-end developers. Our team's responsibilities include the borrower loan application and several apps that handled data integrations.
+
+Some of my team's accomplishments:
+
+- Launched the new borrower loan application under tight deadlines. This application receives most of our borrower traffic, and we were able to launch it without hiccups for both new and existing borrowers. See this app here: https://www.fundingcircle.com/us/apply
+- Integrate with a 3rd party bank information provider, allowing borrowers to automatically connect to their bank accounts instead of sending us several bank account statements. This also greatly automated what used to be a manual data entry process.
+- Integrate with Salesforce, pushing multiple stages of the loan application to allow for pipeline data analysis.
+- Built a fraud integration with Sphonic to automate our fraud detection process.
+- Automate Experian business report pulls. This new data allowed us to use a new, more predictive risk model.
+
+
+
+Temporarily took over as technical lead on the investor team:  
+
+- Used Consul to perform leader election to ensure that only one server ran cron jobs. This allowed us to safely scale up our servers without having duplicate workers.  
+- Built tools to allow our loan servicing team to manually modify loan schedules and reverse charged back repayments.
+
+__Software Engineer__  
+*April 2014 – Present*  
+As an early engineer, I got to work on nearly all aspects of our technology stack. Some projects:    
+
+- Launched first version of our investor API, built in Ruby.  
+- Launched second version of our investor API, built in Clojure.  
+- Built a connector to our bank. This enabled investors to initiate deposits and withdrawals from our platform, and for us to automatically track these money movements.  
+- Built and launched our underwriter tool, helping our credit team move off of Excel and enabling better data collection. The app consisted of an API backend in Ruby and a single page frontend app in Angular.  
+- Created a Docker based build and deployment process.  
+- Worked on a centralized logging system using the ELK stack.  
+- Interviewed dozens of engineering candidates in phone screens, code reviews, and pair programming challenges.      I've helped increase headcount from 4 to 20 engineers.  
+
+###Groupon  
 __Software Engineer - Application Operations__  
-*August 2013 to present*  
-- Worked on five varying Rails 2 and 3 applications, in a service oriented architectural environment.  
+*August 2013 to April 2014*  
 - Wrote both frontend Javascript and backend Rails, with full unit and integration test coverage.  
 - Optimized queries to improve load times from 30 seconds to 200ms on an internal app.  
-- Set up an application to send emails using an internal Groupon server.  
-
-###Facebook
-__Payments Operations Analyst__   
-*December 2012 to April 2013*  
-- Worked on a small team to handle customer requests and fight fraud.  
-- Wrote a Ruby script to automate fighting chargebacks. The script allowed us to handle a 10x increase in volume and generated $900,000 in revenue in the first week.  
 
 
-###HighTable.com
-__Knowledge Curator__   
+__Facebook: Payments Operations Analyst__  
+*December 2012 to April 2013*
+
+__HighTable.com: Knowledge Curator__  
 *April 2012 to June 2012*  
-- Acted as a point of communication between our business teams and our machine learning consultant.  
-- Taught myself Ruby, and wrote website scraping scripts to create training data for our machine learning algorithm.
 
-###Gerson Lehrman Group
-__Senior Research Associate - Tech, Media, and Telecom__  
-*September 2010 to April 2012*   
-- Managed clients' research needs by connecting them with consultants in the technology industry. 
+__Gerson Lehrman Group: Senior Research Associate - Tech, Media, and Telecom__   
+*September 2010 to April 2012* 
 
-###Baxter International
-__Engineering Intern__  
-*May 2009 to August 2009*, and *May 2008 to August 2008*  
-- Designed a novel device for drug infusion that reduces the processes' complexity, increases its efficiency, and improves the ergonomics for patients who use Baxter's products.
 
 ##Education
-
-###Dev Bootcamp
-__Class of 2013__
-
-Dev Bootcamp is a 9 week program where I spent 12 hours a day learning to become a web developer. We learned by pair programming or working in small groups every day.  
-[Portfolio here](http://jackzhou.io/)
 
 ###Washington University in Saint Louis
 __Class of 2010__
